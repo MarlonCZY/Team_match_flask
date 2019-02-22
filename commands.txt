@@ -1,0 +1,4 @@
+ssh -i /Users/ziyuancui/Downloads/BRiX_AI.pem  ubuntu@54.215.198.220
+scp -i "BRiX_AI.pem" ~/Desktop/Job_Recommender_Deliver/brix/users_ai_with_cat.csv  ubuntu@54.215.198.220:brix
+sudo service apache2 restart
+vim /var/log/apache2/error.log
